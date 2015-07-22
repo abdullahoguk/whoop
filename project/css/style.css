@@ -51,7 +51,7 @@ header h1 {
 	padding: 0;
 }
 
-#input input[type='text'{
+#input input[type='text']{
 	height: 25px;
 	width: 48%;
 	padding: 3px;
@@ -59,18 +59,19 @@ header h1 {
 	border: #666666 solid 1px;
 }
 
-#input .whoop-button{
+#input .whoop-button {
 	padding: 5px;
 	margin-bottom: 30px;
 	width: 100%;
 	margin: 10px auto;
 }
 
-.error{
-	background: red;
-	color: #ffffff;
-	padding: 5px;
-	margin-bottom: 20px;
+#input .error {
+	background: #B80000;
+	color: white;
+	padding: 2px;
+	margin-bottom: 10px;
+	text-align: center;
 }
 
 @media only screen and (max-width: 768px){
